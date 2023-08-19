@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="#">Library System</a>
+      <a href="#link to books">Books</a>
+      <a href="#link to register">Register</a>
+      <a href="#">Contact Us</a>
+      <a href="#">Logout</a>
+    </nav>
+
+    <h1 id="link to books">Books</h1>
+
+    <table border="1" width="100%">
+      <thead>
+        <tr>
+          <th>Book ID</th>
+          <th>Title</th>
+          <th>Author</th>
+          <th>Genre</th>
+          <th>Availablity</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>
+            <a href="#">Book Title 1</a>
+            <table border="1" width="100%">
+              <tr>
+                <td>Publication Date: 2000</td>
+              </tr>
+              <tr>
+                <td>Page Count: 250</td>
+              </tr>
+              <tr>
+                <td>ISBN: 123-4567890123</td>
+              </tr>
+            </table>
+          </td>
+          <td>Suman</td>
+          <td>Gener 1</td>
+          <td>Available</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>
+            <a href="#">Book Title 2</a>
+            <table border="1" width="100%">
+              <tr>
+                <td>Publication Date: 2005</td>
+              </tr>
+              <tr>
+                <td>Page Count: 300</td>
+              </tr>
+              <tr>
+                <td>ISBN: 123-4567890456</td>
+              </tr>
+            </table>
+          </td>
+          <td>Ananya</td>
+          <td>Gener 2</td>
+          <td>Not Available</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>
+            <a href="#">Book Title 3</a>
+            <table border="1" width="100%">
+              <tr>
+                <td>Publication Date: 2010</td>
+              </tr>
+              <tr>
+                <td>Page Count: 350</td>
+              </tr>
+              <tr>
+                <td>ISBN: 123-4567890789</td>
+              </tr>
+            </table>
+          </td>
+          <td>Shuvam</td>
+          <td>Gener 3</td>
+          <td>Available</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h1 id="link to register">Register</h1>
+
+    <form>
+      <label for="first name">First Name:</label>
+      <br />
+      <input
+        type="text"
+        id="first name"
+        name="first name"
+        placeholder="First Name"
+      />
+      <br />
+      <br />
+      <label for="last name">Last Name:</label>
+      <br />
+      <input
+        type="text"
+        id="last name"
+        name="last name"
+        placeholder="Last Name"
+      />
+      <br />
+      <br />
+      <label for="dob">Date Of Birth:</label>
+      <br />
+      <input type="date" id="dob" name="date of birth" />
+      <br />
+      <br />
+      <label for="age">Age:</label>
+      <br />
+      <input type="number" id="age" name="age" min="5" max="100" />
+      <br />
+      <br />
+      <label for="email">Email:</label>
+      <br />
+      <input type="email" id="email" name="email" placeholder="XYZ@gmail.com" />
+      <br />
+      <br />
+      <label for="password">Password:</label>
+      <br />
+      <input type="password" id="password" name="password" />
+      <br />
+      <br />
+      <label for="password">Confirm Password:</label>
+      <br />
+      <input type="password" id="password" name="password" />
+      <br />
+      <br />
+      <button type="button">Register</button>
+    </form>
+  </body>
+</html>
