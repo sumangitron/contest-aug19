@@ -1,20 +1,83 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #f0f0f0;
+}
 nav {
-  width: 100%;
-  height: 60px;
   background-color: rgb(0, 0, 0);
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
   position: sticky;
   top: 0;
+  z-index: 1;
 }
 nav a {
   text-decoration: none;
   color: white;
-  font-size: 20px;
+  margin-inline: 10px;
+  font-size: 15px;
   font-weight: bold;
 }
+#books,
+#register {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+}
+#books-div,
+#register-div {
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px gray;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: white;
+}
+#link-books,
+#link-register {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+table,
+tr,
+th,
+td {
+  border: 2px solid #ececec;
+  border-collapse: collapse;
+}
+td,
+th,
+td {
+  padding: 10px;
+}
+td > a {
+  color: #220fbc;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+#register-div {
+  width: 540px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  margin-top: 7px;
+  margin-bottom: 7px;
+  font-size: 15px;
+}
+input {
+  border: 2px solid #ececec;
+  padding: 5px;
+}
 button {
+  margin-top: 20px;
   background-color: black;
   color: white;
+  font-size: 13px;
+  padding: 8px;
 }
